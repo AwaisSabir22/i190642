@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".screen9"
     android:background="@color/black"
-    tools:context=".screen7"
     android:orientation="vertical">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,99 +27,93 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Song Title"
+            android:text="Add Playlist"
             android:textColor="@color/white"
-            android:textSize="45dp"
-            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
             ></TextView>
 
 
 
     </LinearLayout>
 
-    <TextView
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        >
+        <ImageView
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/upload"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            ></ImageView>
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et1"
+        android:background="@drawable/et_style"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="15dp"
-        android:text="By Artist"
-        android:textColor="#ECC727"
-        android:textSize="30dp"
-        ></TextView>
+        android:hint="Playlist Name"
+
+        android:padding="10dp"
+        android:textColorHint="#ECC727"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+
+    </EditText>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        ></LinearLayout>
+        android:layout_height="30dp"
+        >
 
+    </LinearLayout>
 
-    <LinearLayout
+    <EditText
+        android:id="@+id/et2"
+        android:background="@drawable/et_style"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:orientation="horizontal"
-        >
-<ImageView
-    android:layout_width="70dp"
-    android:layout_height="match_parent"
-    android:src="@drawable/account_icon"
-    android:padding="15dp"
-    ></ImageView>
-        <TextView
-            android:layout_width="320dp"
-            android:layout_height="60dp"
-            android:background="@drawable/edges"
-            android:text="What an amazing song"
-            android:textSize="25dp"
-            android:padding="10dp"
-            android:layout_marginTop="20dp"
-            android:textColor="@color/white"
-            ></TextView>
+        android:hint="Description"
+
+        android:padding="10dp"
+        android:textColorHint="#ECC727"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
 
 
 
+    </EditText>
 
-    </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        ></LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:orientation="horizontal"
-        >
-    <EditText
-        android:id="@+id/et3"
-        android:layout_weight=".75"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/edges"
-        android:inputType="textPersonName"
-        android:padding="20dp"
-        android:hint="Post a comment"
-        android:textColorHint="@color/white"
-        />
 
         <ImageView
-            android:id="@+id/submit"
             android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/enter"
-            android:layout_weight=".25"
-            android:clickable="true">
+            android:layout_height="80dp"
+            android:src="@drawable/add_play"
+            android:layout_marginLeft="300dp"
 
-        </ImageView>
 
-    </LinearLayout>
-    
+            ></ImageView>
+
+
+
+
+
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="20dp">
-
-    </LinearLayout>
+        android:layout_height="30dp"
+        ></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
