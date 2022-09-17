@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen9"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Song Title"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            ></TextView>
+
+        <ImageView
+            android:id="@+id/down"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:src="@drawable/downarrow"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageView>
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="By Artist"
+        android:textColor="#ECC727"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"
+        ></TextView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        >
+
+        <ImageView
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:src="@drawable/despacito"
+            tools:ignore="SpeakableTextPresentCheck"></ImageView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            >
+
+            <ImageView
+                android:id="@+id/stop1"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="80dp"
+                android:clickable="true"
+                android:src="@drawable/prev"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            >
+
+            <ImageView
+                android:id="@+id/stop"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:layout_weight=".5"
+                android:clickable="true"
+                android:src="@drawable/playys"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".38"
+            >
+
+            <ImageView
+                android:id="@+id/play"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="0dp"
+
+                android:clickable="true"
+                android:src="@drawable/forward_arrow"
+
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:src="@drawable/progress0"
+        android:layout_marginLeft="55dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="0:00"
+        android:textColor="#ECC727"
+        android:layout_marginLeft="70dp"
+        ></TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            ></RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="30dp">
+
+            <ImageView
+                android:id="@+id/heart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:src="@drawable/heartwhite"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@id/down"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:src="@drawable/download"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></ImageView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/playlist"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:src="@drawable/playlisticon"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></ImageView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/list"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:src="@drawable/list"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:src="@drawable/dots"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></ImageView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1A1A1B"
+        android:orientation="horizontal"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            >
+
+            <ImageView
+                android:id="@+id/like"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/heart"
+                tools:ignore="SpeakableTextPresentCheck"></ImageView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            >
+
+            <ImageView
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/plus"
+
+                tools:ignore="SpeakableTextPresentCheck"></ImageView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            >
+
+            <ImageView
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/search"
+                tools:ignore="SpeakableTextPresentCheck"></ImageView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            >
+
+            <ImageView
+                android:id="@+id/later"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/listen_later"
+                tools:ignore="SpeakableTextPresentCheck"></ImageView>
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#1A1A1B"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="Liked"
+                android:textColor="@color/white"
+                android:textSize="18dp"></TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="Add"
+                android:textColor="@color/white"
+                android:textSize="18dp"></TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:text="Search"
+                android:textColor="@color/white"
+                android:textSize="18dp"></TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="Listen Later"
+                android:textColor="@color/white"
+                android:textSize="18dp"></TextView>
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
