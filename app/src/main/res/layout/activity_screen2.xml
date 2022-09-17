@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+    android:orientation="vertical"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sign In"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="280dp"
+            android:backgroundTint="@color/black"
+            >
+
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo2"
+            android:layout_marginRight="260dp"
+            ></ImageView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Musify"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        ></LinearLayout>
+
+    <EditText
+        android:id="@+id/et1"
+        android:background="@drawable/et_style"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:padding="10dp"
+        android:textColorHint="#ECC727"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+    </EditText>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        ></LinearLayout>
+
+    <EditText
+        android:id="@+id/et2"
+        android:background="@drawable/et_style"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:padding="10dp"
+        android:textColorHint="#ECC727"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        ></LinearLayout>
+
+
+    <EditText
+        android:id="@+id/etpass"
+        android:background="@drawable/et_style"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:padding="10dp"
+        app:passwordToggleEnabled="true"
+        android:inputType="textPassword"
+        android:textColorHint="#ECC727"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Gender"
+        android:textColor="#ECC727"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:padding="4dp">
+
+        <RelativeLayout
+            android:layout_width="8dp"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/imagewithbr"
+                android:layout_marginLeft="30dp">
+
+            </ImageView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            >
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:src="@drawable/femalebr">
+
+            </ImageView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/otherbr"
+                android:layout_marginRight="30dp">
+
+            </ImageView>
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="I would like to receive your newsletter and other
+promotional information."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/signup"
+        android:clickable="true"
+        />
+
+
+</LinearLayout>
+
+
+
+
+
+
