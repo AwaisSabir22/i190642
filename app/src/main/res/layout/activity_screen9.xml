@@ -97,11 +97,12 @@
 
 
         <ImageView
+            android:id="@+id/addplay"
             android:layout_width="100dp"
             android:layout_height="80dp"
             android:src="@drawable/add_play"
             android:layout_marginLeft="300dp"
-
+            android:clickable="true"
 
             ></ImageView>
 
@@ -144,13 +145,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight=".25"
+            android:background="@color/black"
             >
 
             <ImageView
                 android:id="@+id/add"
-                android:clickable="true"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:clickable="true"
                 android:padding="5dp"
                 android:src="@drawable/plus"
 
@@ -227,6 +229,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight=".25"
+            android:background="@color/black"
             >
 
             <TextView
