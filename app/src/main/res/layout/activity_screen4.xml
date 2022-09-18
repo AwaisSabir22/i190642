@@ -68,10 +68,12 @@
     android:layout_height="100dp">
 
     <ImageView
+        android:id="@+id/fb"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clickable="true"
-        android:src="@drawable/fb_but"></ImageView>
+        android:src="@drawable/fb_but"
+        tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
 </RelativeLayout>
 
@@ -80,11 +82,12 @@
         android:layout_height="100dp">
 
         <ImageView
+            android:id="@+id/google"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/google_but"
             android:clickable="true"
-            ></ImageView>
+            android:src="@drawable/google_but"
+            tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
     </RelativeLayout>
 
@@ -93,10 +96,12 @@
         android:layout_height="100dp">
 
         <ImageView
+            android:id="@+id/createacc"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clickable="true"
-            android:src="@drawable/create_acc"></ImageView>
+            android:src="@drawable/create_acc"
+            tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
     </RelativeLayout>
 

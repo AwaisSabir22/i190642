@@ -19,12 +19,12 @@
             android:id="@+id/back"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:src="@drawable/arrow"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="15dp"
             android:clickable="true"
             android:padding="10dp"
-            ></ImageView>
+            android:src="@drawable/arrow"
+            tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
         <TextView
             android:layout_width="wrap_content"
@@ -39,12 +39,12 @@
             android:id="@+id/edit"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:src="@drawable/edit"
             android:layout_marginLeft="140dp"
             android:layout_marginTop="15dp"
             android:clickable="true"
             android:padding="10dp"
-            ></ImageView>
+            android:src="@drawable/edit"
+            tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
 
 

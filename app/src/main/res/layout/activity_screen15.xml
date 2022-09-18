@@ -73,9 +73,9 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginTop="150dp"
-            android:src="@drawable/squaresimple"
             android:clickable="true"
-        ></ImageView>
+            android:src="@drawable/squaresimple"
+            tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
 
     </LinearLayout>
@@ -92,11 +92,11 @@
             android:id="@+id/plusbut"
             android:layout_width="60dp"
             android:layout_height="120dp"
-            android:src="@drawable/pluscircle"
-            android:layout_marginTop="45dp"
             android:layout_marginLeft="335dp"
+            android:layout_marginTop="45dp"
             android:clickable="true"
-            ></ImageView>
+            android:src="@drawable/pluscircle"
+            tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
 
 

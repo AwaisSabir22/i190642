@@ -18,10 +18,10 @@
             android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:src="@drawable/arrow"
             android:layout_marginTop="15dp"
             android:clickable="true"
-            ></ImageView>
+            android:src="@drawable/arrow"
+            tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
         <TextView
             android:layout_width="wrap_content"
@@ -106,9 +106,10 @@
             android:id="@+id/submit"
             android:layout_width="100dp"
             android:layout_height="match_parent"
-            android:src="@drawable/enter"
             android:layout_weight=".25"
-            android:clickable="true">
+            android:clickable="true"
+            android:src="@drawable/enter"
+            tools:ignore="SpeakableTextPresentCheck">
 
         </ImageView>
 
@@ -140,7 +141,8 @@
                 android:layout_height="match_parent"
                 android:clickable="true"
                 android:padding="5dp"
-                android:src="@drawable/heart"></ImageView>
+                android:src="@drawable/heart"
+                tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
 
         </RelativeLayout>
@@ -153,13 +155,13 @@
 
             <ImageView
                 android:id="@+id/add"
-                android:clickable="true"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:clickable="true"
                 android:padding="5dp"
                 android:src="@drawable/plus"
 
-                ></ImageView>
+                tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
 
         </RelativeLayout>
@@ -172,11 +174,12 @@
 
             <ImageView
                 android:id="@+id/search"
-                android:clickable="true"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:clickable="true"
                 android:padding="5dp"
-                android:src="@drawable/search"></ImageView>
+                android:src="@drawable/search"
+                tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
 
         </RelativeLayout>
@@ -189,11 +192,12 @@
 
             <ImageView
                 android:id="@+id/later"
-                android:clickable="true"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:clickable="true"
                 android:padding="5dp"
-                android:src="@drawable/listen_later"></ImageView>
+                android:src="@drawable/listen_later"
+                tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
 
         </RelativeLayout>
